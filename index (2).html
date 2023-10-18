@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {      
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 40px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        /* Estilos para as seções */
+        .portfolio-section {
+            background-color: #fff;
+            padding: 40px;
+        }
+
+        /* Estilos para os pares de seções */
+        .portfolio-section.pair {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .portfolio-section.pair > div {
+            flex: 1;
+            width: calc(50% - 20px); /* 20px de espaço entre as seções */
+            margin: 10px;
+            border: 2px solid #0077b6;
+            padding: 10px;
+        }
+
+        .portfolio-section img {
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            margin: 0 10px 10px 0;
+            border: 2px solid #00a6fb;
+        }
+
+        .small-word {
+            color: #FF0000; 
+        }
+
+        #about {
+            background-color: #fff;
+        }
+
+        #projects {
+            background-color: #f2f2f2;
+        }
+
+        #completed-courses {
+            background-color: #fff;
+        }
+
+        #achievements {
+            background-color: #f2f2f2;
+        }
+
+        #qualities {
+            background-color: #fff;
+        }
+
+        #objectives {
+            background-color: #f2f2f2;
+        }
+
+        #contact {
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .portfolio-section a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+
+        .portfolio-section a:hover {
+            color: #00a6fb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#completed-courses">Disciplinas Concluídas</a></li>
+                <li><a href="#achievements">Conquistas</a></li>
+                <li><a href="#qualities">Qualidades</a></li>
+                <li><a href="#objectives">Objetivos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="portfolio-section pair" id="about">
+        <h2>Sobre Mim</h2>
+        <p><span class="small-word">Olá! Eu sou o Fabricio, sou um sujeito amigável e agradável de se ter por perto. Gosto de criar coisas, mas não é só isso que eu faço na vida! Também pratico um esporte chamado "Calistenia" e gosto de jogar no computador de vez em quando. Curto a maioria dos tipos de jogos, mas sem dúvidas meu preferido é o estilo soulslike. Gosto da forma como vivo e tento sempre levar tudo da forma mais leve possível. Odeio me esforçar além do necessário, mas estou sempre disposto a ajudar quem precisar. Também gosto de ler, mesmo que faça raramente. Não me sinto bem em lugares barulhentos e superlotados, mas adoro conhecer pessoas e lugares novos.</span></p>
+    </div>
+
+    <div class="portfolio-section pair" id="projects">
+        <h2>Meus Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p><span class="small-word">Projeto de cardápio</span></p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <p><span class="small-word">Projeto de estoque</span></p>
+        </div>
+        <div class="project">
+            <h3>Projeto 3</h3>
+            <p><span class="small-word">Projeto de portfólio</span></p>
+        </div>
+    </div>
+
+    <div class "portfolio-section pair" id="completed-courses">
+        <h2>Disciplinas Concluídas</h2>
+        <ul>
+            <span class="small-word"><li>FUNDAMENTOS DA TECNOLOGIA DA INFORMAÇÃO</li>
+            <li>COMUNICAÇÃO E REDAÇÃO TÉCNICA</li>
+            <li>CÁLCULO APLICADO</li>
+            <li>INFORMÁTICA APLICADA</li>
+            <li>LÓGICA DE PROGRAMAÇÃO</li>
+            <li>PROJETO DE INOVAÇÃO: PROCESSO CRIATIVO – INDÚSTRIA 4.0, LEAN E IDEAÇÃO</li>
+            <li>BANCO DE DADOS</li>
+            <li>PROGRAMAÇÃO DE APLICATIVOS</li>
+            <li>MODELAGEM DE SISTEMAS</li> </span>
+        </ul>
+    </div>
+
+    <div class="portfolio-section pair" id="achievements">
+        <h2>Conquistas</h2>
+        <img src="imagens/imagem1.jpeg" alt="Conquista 1">
+        <p><span class="small-word">Conclusão do ensino médio</span></p>
+
+        <img src="imagens/imagem2.jpeg" alt="Conquista 2">
+        <p><span class="small-word">Conclusão do curso de desenvolvimento de sistemas no Senai</span></p>
+    </div>
+
+    <div class="portfolio-section pair" id="qualities">
+        <h2>Qualidades</h2>
+        <img src="imagens/imagem3.jpeg" alt="Qualidade 1">
+        <p><span class="small-word">Sou uma pessoa de fácil adaptação a diferentes lugares e habilidades. Sou ótimo em fazer amizades e trabalhar em equipe.</span></p>
+
+        <img src="imagens/imagem4.jpeg" alt="Qualidade 2">
+        <p><span class="small-word">Sou uma pessoa extremamente calma e com alto controle emocional. É muito difícil eu perder a cabeça, independentemente da situação.</span></p>
+    </div>
+
+    <div class="portfolio-section pair" id="objectives">
+        <h2>Objetivos</h2>
+        <img src="imagens/imagem5.jpeg" alt="Objetivo 1">
+        <p><span class="small-word">Assim como acho que todas as pessoas deveriam querer, meu principal objetivo de vida é alcançar a minha felicidade plena e ser livre na vida e financeiramente para realizar todos os meus sonhos e metas de vida.</span></p>
+        <img src="imagens/imagem6.jpeg" alt="Objetivo 2">
+        <p><span class="small-word">Quero realizar tudo aquilo que sempre quis e fazer tudo o que sempre tive vontade, para que um dia eu possa olhar para o sol satisfeito e poder dizer e sentir que cada dia valeu a pena e morrer sem arrependimentos.</span></p>
+    </div>
+
+    <div class="portfolio-section" id="contact">
+        <h2>Contato</h2>
+        <p><span class="small-word">Entre em contato comigo pelo email [fabriciojogador1000@gmail.com] ou pelo celular de contato [31 97155-4299].</span></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 [Fabricio da Silva Oliveira]</p>
+    </footer>
+    <script>
+        document.querySelectorAll('a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
